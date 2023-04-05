@@ -6,7 +6,8 @@
 $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
 .course-tabs-navigation {
-  border-bottom: solid 1px #eaeaea;
+  border-bottom: 2px solid #ed6c4d;
+  margin-top: 50px;
 
   .nav a,
   .nav button {
@@ -27,9 +28,10 @@ $fa-font-path: "~font-awesome/fonts";
   margin: 0 0 -1px;
 
   .nav-link {
-    border-bottom: 4px solid transparent;
-    border-top: 4px solid transparent;
-    color: $gray-700;
+    background-color: lightgray;
+    color: white;
+    border-right: 1px solid white;
+    font-weight: normal;
 
     // temporary until we can remove .btn class from dropdowns
     border-left: 0;
@@ -39,9 +41,9 @@ $fa-font-path: "~font-awesome/fonts";
     &:hover,
     &:focus,
     &.active {
-      font-weight: $font-weight-normal;
-      color: $primary-500;
-      border-bottom-color: $primary-500;
+      border-bottom: 0px;
+      background-color: #ed6c4d;
+      font-weight: normal;
     }
   }
 }

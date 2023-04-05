@@ -23,8 +23,8 @@ function EmptyPage({
     <div className={containerClasses}>
       <div className="d-flex flex-column align-items-center">
         <EmptyIcon />
-        <h3 className="pt-3">{title}</h3>
-        {subTitle && <p className="pb-2">{subTitle}</p>}
+        {/* <h3 className="pt-3">{title}</h3> */}
+        {/* {subTitle && <p className="pb-2">{subTitle}</p>} */}
         {action && actionText && (
           <Button onClick={action} variant="outline-dark">
             {actionText}
