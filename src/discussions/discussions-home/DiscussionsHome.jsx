@@ -6,7 +6,8 @@ import {
   Route, Switch, useLocation, useRouteMatch,
 } from 'react-router';
 
-import Footer from '@edx/frontend-component-footer';
+// import Footer from '@edx/frontend-component-footer';
+import Footer from '../footer/footer';
 import { LearningHeader as Header } from '@edx/frontend-component-header';
 import { getConfig } from '@edx/frontend-platform';
 
