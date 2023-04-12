@@ -87,7 +87,7 @@ $fa-font-path: "~font-awesome/fonts";
   background-color: unset !important;
 }
 
-.learner > a:hover {
+.learner>a:hover {
   background-color: #F2F0EF;
 }
 
@@ -120,16 +120,34 @@ header {
   .user-dropdown {
     z-index: 2005;
   }
+
   .logo {
     margin-right: 1rem;
+
     img {
       height: 1.75rem;
     }
+  }
+
+  .text-gray-700 {
+    font-size: 0px !important;
+  }
+
+  .text-gray-700::before {
+    content: "";
+    background-image: url('./assets/help.jpg');
+    background-size: cover;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-top: 1rem;
+    margin-left: 1rem;
   }
 }
 
 #learner-posts-link {
   color: inherit;
+
   span[role=heading]:hover {
     text-decoration: underline;
   }
@@ -158,11 +176,12 @@ header {
   }
 }
 
-.pointer-cursor-hover :hover{
+.pointer-cursor-hover :hover {
   cursor: pointer;
 }
 
-.filter-bar:focus-visible, .filter-bar:focus {
+.filter-bar:focus-visible,
+.filter-bar:focus {
   outline: none;
 }
 
@@ -178,29 +197,43 @@ header {
       font-size: 18px;
       font-weight: 400;
       line-height: 28px;
-    };
+    }
+
+    ;
 
     span {
       font-weight: 500;
       line-height: 24px;
-    };
-  };
+    }
 
-  .container-xl{
+    ;
+  }
+
+  ;
+
+  .container-xl {
     .course-title-lockup {
       font-size: 1.125 rem;
-    };
+    }
+
+    ;
 
     .logo {
       margin-top: 2px;
-    };
-  };
+    }
+
+    ;
+  }
+
+  ;
 
   span:first-child {
     font-size: 14px;
     margin-top: 1px !important;
     margin-bottom: -1px !important;
-  };
+  }
+
+  ;
 }
 
 #courseTabsNavigation {
@@ -221,7 +254,9 @@ header {
       color: white;
       border: none;
     }
-  };
+  }
+
+  ;
 }
 
 .min-content-height {
@@ -240,12 +275,12 @@ header {
   z-index: 1;
 }
 
-.discussion-topic-group:last-of-type .divider{
+.discussion-topic-group:last-of-type .divider {
   display: none;
 }
 
 .zindex-5000 {
- z-index: 5000;
+  z-index: 5000;
 }
 
 #paragon-portal-root .pgn__modal-layer {
@@ -258,12 +293,16 @@ header {
   }
 }
 
-.nav-pills .nav-link.active, .nav-pills .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, .nav-pills .show>.nav-link, .pgn__tab_more.nav-link.active .dropdown .nav-pills .dropdown-toggle {
+.nav-pills .nav-link.active,
+.nav-pills .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle,
+.nav-pills .show>.nav-link,
+.pgn__tab_more.nav-link.active .dropdown .nav-pills .dropdown-toggle {
   background-color: #3fa9f5;
   color: #fff;
 }
 
-.nav-link, .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle {
+.nav-link,
+.pgn__tab_more.nav-link.active .dropdown .dropdown-toggle {
   color: #454545;
   display: block;
   font-weight: 500;
@@ -279,20 +318,24 @@ header {
 
 .pgn__searchfield {
   border: 0.0625rem solid #b0b0b0;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
 }
 
-.btn-inverse-outline-primary, .btn-brand{
+.btn-inverse-outline-primary,
+.btn-brand {
   background-color: #3fa9f5;
   border-color: #3fa9f5;
 }
 
-.btn-inverse-outline-primary:hover, .btn-brand:hover,
-.btn-inverse-outline-primary:active, .btn-brand:active,
-.btn-inverse-outline-primary:focus, .btn-brand:focus {
+.btn-inverse-outline-primary:hover,
+.btn-brand:hover,
+.btn-inverse-outline-primary:active,
+.btn-brand:active,
+.btn-inverse-outline-primary:focus,
+.btn-brand:focus {
   background-color: #80d5fb;
   border-color: #80d5fb;
   color: white;
@@ -309,7 +352,7 @@ header {
   border-color: #80d5fb;
 }
 
-.pgn__form-label{
+.pgn__form-label {
   color: #3fa9f5 !important;
 }
 
@@ -339,7 +382,7 @@ header {
   filter: invert(52%) sepia(99%) saturate(358%) hue-rotate(166deg) brightness(95%) contrast(101%);
 }
 
-.pgn__searchfield .pgn__icon{
+.pgn__searchfield .pgn__icon {
   filter: invert(0%) sepia(100%) saturate(2%) hue-rotate(282deg) brightness(94%) contrast(100%);
 }
 
