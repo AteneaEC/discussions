@@ -170,7 +170,7 @@ header {
   line-height: 28px;
   font-family: Inter, Helvetica Neue, Arial, sans-serif;
   font-size: 18px;
-  height: 60px;
+  border-bottom: 1px solid #3fa9f5;
 
   .user-dropdown {
     button {
@@ -217,6 +217,9 @@ header {
 
     .nav-item {
       padding-bottom: 8px;
+      background-color: #d3d3d3;
+      color: white;
+      border: none;
     }
   };
 }
@@ -338,4 +341,17 @@ header {
 
 .pgn__searchfield .pgn__icon{
   filter: invert(0%) sepia(100%) saturate(2%) hue-rotate(282deg) brightness(94%) contrast(100%);
+}
+
+.nav-underline-tabs .nav-link.active, .nav-underline-tabs .nav-link:focus, .nav-underline-tabs .nav-link:hover, .nav-underline-tabs .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, .pgn__tab_more.nav-link.active .dropdown .nav-underline-tabs .dropdown-toggle{
+  background-color: #ed6c4d;
+  border-bottom: none;
+}
+
+#courseTabsNavigation{
+  margin-top: 40px;
+}
+
+.course-tabs-navigation {
+  border-bottom-color: #ed6c4d;
 }
