@@ -131,15 +131,23 @@ header {
 
   .text-gray-700 {
     font-size: 0px !important;
+    position: relative;
+    left: 9rem;
   }
+
+  @media (max-width: 1645px) {
+    .text-gray-700 {
+      left: 0;
+    }
+  }  
 
   .text-gray-700::before {
     content: "";
     background-image: url('./assets/help.jpg');
     background-size: cover;
     display: inline-block;
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     margin-top: 1rem;
     margin-left: 1rem;
   }
