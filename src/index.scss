@@ -395,7 +395,7 @@ header {
 }
 
 .nav-underline-tabs .nav-link.active, .nav-underline-tabs .nav-link:focus, .nav-underline-tabs .nav-link:hover, .nav-underline-tabs .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, .pgn__tab_more.nav-link.active .dropdown .nav-underline-tabs .dropdown-toggle{
-  background-color: #ed6c4d;
+  background-color: #ed6c4d !important;
   border-bottom: none;
 }
 
