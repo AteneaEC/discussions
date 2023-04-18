@@ -117,6 +117,10 @@ $fa-font-path: "~font-awesome/fonts";
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   .user-dropdown {
     z-index: 2005;
   }
@@ -132,14 +136,8 @@ header {
   .text-gray-700 {
     font-size: 0px !important;
     position: relative;
-    left: 9rem;
+    order: 2;
   }
-
-  @media (max-width: 1645px) {
-    .text-gray-700 {
-      left: 0;
-    }
-  }  
 
   .text-gray-700::before {
     content: "";
@@ -394,12 +392,16 @@ header {
   filter: invert(0%) sepia(100%) saturate(2%) hue-rotate(282deg) brightness(94%) contrast(100%);
 }
 
-.nav-underline-tabs .nav-link.active, .nav-underline-tabs .nav-link:focus, .nav-underline-tabs .nav-link:hover, .nav-underline-tabs .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle, .pgn__tab_more.nav-link.active .dropdown .nav-underline-tabs .dropdown-toggle{
+.nav-underline-tabs .nav-link.active,
+.nav-underline-tabs .nav-link:focus,
+.nav-underline-tabs .nav-link:hover,
+.nav-underline-tabs .pgn__tab_more.nav-link.active .dropdown .dropdown-toggle,
+.pgn__tab_more.nav-link.active .dropdown .nav-underline-tabs .dropdown-toggle {
   background-color: #ed6c4d !important;
   border-bottom: none;
 }
 
-#courseTabsNavigation{
+#courseTabsNavigation {
   margin-top: 40px;
 }
 
