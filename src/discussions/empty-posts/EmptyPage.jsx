@@ -21,7 +21,7 @@ function EmptyPage({
 
   return (
     <div className={containerClasses}>
-      <div className="d-flex flex-column align-items-center">
+      <div className="d-flex flex-column align-items-center svg-wrapper">
         <EmptyIcon />
         <h3 className="pt-3">{title}</h3>
         {subTitle && <p className="pb-2">{subTitle}</p>}

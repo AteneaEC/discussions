@@ -408,3 +408,32 @@ header {
 .course-tabs-navigation {
   border-bottom-color: #ed6c4d;
 }
+
+.svg-wrapper svg{
+  width: 260px;
+}
+
+@media (max-width: 576px) {
+
+  .course-tabs-navigation .btn-link{
+    color: white !important;
+    text-decoration: none;
+  }
+
+  .dropdown-menu-right.dropdown-menu.show{
+    z-index: 99999;
+  }
+
+  .py-2.nav.nav-pills .nav-item{
+    margin: 3px;
+  }
+
+  #courseTabsNavigation .container-xl .nav-item{
+    padding-bottom: 0;
+  }
+
+  .pgn__searchfield,
+  .pgn__searchfield form{
+    height: fit-content;
+  }
+}
