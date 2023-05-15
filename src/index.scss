@@ -129,7 +129,7 @@ header {
     margin-right: 1rem;
 
     img {
-      height: 1.75rem;
+      height: 40px;
     }
   }
 
@@ -413,6 +413,12 @@ header {
   width: 260px;
 }
 
+.learning-header .user-dropdown .btn{
+  background-color: transparent;
+  border: 1px solid #3fa9f5;
+  color: #3fa9f5;
+}
+
 @media (max-width: 576px) {
 
   .course-tabs-navigation .btn-link{
@@ -436,4 +442,16 @@ header {
   .pgn__searchfield form{
     height: fit-content;
   }
+
+  .learning-header .course-title-lockup span{
+    font-size: 0.75em;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+
+
 }
